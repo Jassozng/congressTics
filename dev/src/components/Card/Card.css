@@ -1,0 +1,38 @@
+div.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    width: 40%;
+    background-color: var(--blackFOGRA);
+    border-radius: 10%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 1rem;
+    background-color: var(--wine);
+    padding: 1rem;
+    color: var(--silverChalice);
+    width: 60%;
+}
+
+.avatar {
+    width: 40%;
+}
+
+.image-button {
+    width: 2rem;
+}
+
+p.twitter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}

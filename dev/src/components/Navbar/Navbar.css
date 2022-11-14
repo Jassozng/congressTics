@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    color: rgb(255, 255, 255);
+    min-height: 2rem;
+    min-height: 3rem;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; /* space between in case of nav buttons */
+    min-width: -moz-available;
+    min-width: -webkit-fill-available;
+    background-color: var(--tuscany);
+}
+
+nav h1 {
+    margin-left: 1rem;
+}
+
+nav .nav-link {
+    color: rgb(29, 98, 201);
+    border-radius: 10%;
+    text-decoration: none;
+    font-family: monospace;
+    padding: 1rem 1rem 1rem 1rem;
+
+}

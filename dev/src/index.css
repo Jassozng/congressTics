@@ -1,0 +1,28 @@
+:root {
+  --gainsboro: #DFE0E2;
+  --silverChalice: #AAAAAA;
+  --tuscany: #B7999C;
+  --sizzRed: #EB5160;
+  --blackFOGRA: #402127;
+  --wine: #79313A;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: var(--gainsboro);
+}
+
+body {
+  margin: 0;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+}
+
